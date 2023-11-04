@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ca20bc;
+}
+.container{
+    height: 87vh;
+    width: 28vw;
+    background-color: rgb(5, 5, 100);
+    position: relative;
+    top: 6vh;
+    left: 23vw;
+    border-radius: 3%;
+}
+/* .scon{
+    height: 16vh;
+    width: 26vw;
+    background-color: green;
+    position: relative;
+    left: 1vw;
+    top: 2vh;
+} */
+#scon{
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    height: 14vh;
+    width: 23vw;
+    background-color: green;
+    position: relative;
+    right: 0vw;
+    top: 0vh;
+    font-size: 54px;
+    border-radius: 3%;
+}
+form .scon{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .scon input{
+    text-align: right;
+    flex: 2;
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+}
+
+.buttons{
+    position: relative;
+    left: 1vw;
+    bottom: 6vh;
+}
+input#AC{
+    height: 5vw;
+    width: 5vw;
+    background-color: rgb(94, 6, 102);
+    color: white;
+    position: relative;
+    top: 6vh;
+    left: 1vw;
+    font-size: 32px;
+    border-radius: 15%;
+}
+#AC:hover{
+    background-image: radial-gradient(rgb(70, 4, 78),rgb(36, 6, 43));
+
+}
+
+input#Del{
+    height: 5vw;
+    width: 5vw;
+    background-color: rgb(94, 6, 102);
+    color: white;
+    position: relative;
+    top: 6vh;
+    left: 2vw;
+    font-size: 32px;
+    border-radius: 15%;
+}
+#Del:hover{
+    background-image: radial-gradient(rgb(70, 4, 78),rgb(36, 6, 43));
+
+}
+
+input#full{
+    height: 5vw;
+    width: 5vw;
+    background-color: rgb(202, 224, 77);
+    color: rgb(37, 26, 26);
+    position: relative;
+    top: 6vh;
+    left: 3vw;
+    font-size: 32px;
+    border-radius: 15%;
+}
+#full:hover{
+    background-image: radial-gradient(rgb(190, 158, 13),rgb(180, 141, 14));
+}
+
+input#slash{
+    height: 5vw;
+    width: 5vw;
+    background-color: rgb(202, 224, 77);
+    color: rgb(37, 26, 26);
+    position: relative;
+    top: 6vh;
+    right: 2vw;
+    font-size: 32px;
+    border-radius: 15%;
+}
+#slash:hover{
+    background-image: radial-gradient(rgb(190, 158, 13),rgb(180, 141, 14));
+}
+
+input#sev{
+    height: 5vw;
+    width: 5vw;
+    background-color: rgb(54, 5, 134);
+    color: white;
+    position: relative;
+    top: 7vh;
+    left: 1vw;
+    font-size: 32px;
+    border-radius: 15%;
+}
+#sev:hover{
+    background-image: radial-gradient(rgb(39, 7, 82),rgb(12, 2, 32));
+
+}
+
+input#eig{
+    height: 5vw;
+    width: 5vw;
+    background-color: rgb(54, 5, 134);
+    color: white;
+    position: relative;
+    top: 7vh;
+    left: 2vw;
+    font-size: 32px;
+    border-radius: 15%;
+}
+#eig:hover{
+    background-image: radial-gradient(rgb(39, 7, 82),rgb(12, 2, 32));
+
+}
+
+input#nin{
+    height: 5vw;
+    width: 5vw;
+    background-color: rgb(54, 5, 134);
+    color: white;
+    position: relative;
+    top: 7vh;
+    left: 3vw;
+    font-size: 32px;
+    border-radius: 15%;
+}
+#nin:hover{
+    background-image: radial-gradient(rgb(39, 7, 82),rgb(12, 2, 32));
+
+}
+
+input#mul{
+    height: 5vw;
+    width: 5vw;
+    background-color: rgb(202, 224, 77);
+    color: rgb(37, 26, 26);
+    position: relative;
+    top: 7vh;
+    right: 2vw;
+    font-size: 32px;
+    border-radius: 15%;
+}
+#mul:hover{
+    background-image: radial-gradient(rgb(190, 158, 13),rgb(180, 141, 14));
+}
+
+input#four{
+    height: 5vw;
+    width: 5vw;
+    background-color: rgb(54, 5, 134);
+    color: white;
+    position: relative;
+    top: 8vh;
+    left: 1vw;
+    font-size: 32px;
+    border-radius: 15%;
+}
+#four:hover{
+    background-image: radial-gradient(rgb(39, 7, 82),rgb(12, 2, 32));
+
+}
+
+input#fiv{
+    height: 5vw;
+    width: 5vw;
+    background-color: rgb(54, 5, 134);
+    color: white;
+    position: relative;
+    top: 8vh;
+    left: 2vw;
+    font-size: 32px;
+    border-radius: 15%;
+}
+#fiv:hover{
+    background-image: radial-gradient(rgb(39, 7, 82),rgb(12, 2, 32));
+
+}
+
+input#six{
+    height: 5vw;
+    width: 5vw;
+    background-color: rgb(54, 5, 134);
+    color: white;
+    position: relative;
+    top: 8vh;
+    left: 3vw;
+    font-size: 32px;
+    border-radius: 15%;
+}
+#six:hover{
+    background-image: radial-gradient(rgb(39, 7, 82),rgb(12, 2, 32));
+
+}
+
+input#min{
+    height: 5vw;
+    width: 5vw;
+    background-color: rgb(202, 224, 77);
+    color: rgb(37, 26, 26);
+    position: relative;
+    top: 8vh;
+    right: 2vw;
+    font-size: 32px;
+    border-radius: 15%;
+}
+#min:hover{
+    background-image: radial-gradient(rgb(190, 158, 13),rgb(180, 141, 14));
+}
+
+input#one{
+    height: 5vw;
+    width: 5vw;
+    background-color: rgb(54, 5, 134);
+    color: white;
+    position: relative;
+    top: 9vh;
+    left: 1vw;
+    font-size: 32px;
+    border-radius: 15%;
+}
+#one:hover{
+    background-image: radial-gradient(rgb(39, 7, 82),rgb(12, 2, 32));
+
+}
+
+input#two{
+    height: 5vw;
+    width: 5vw;
+    background-color: rgb(54, 5, 134);
+    color: white;
+    position: relative;
+    top: 9vh;
+    left: 2vw;
+    font-size: 32px;
+    border-radius: 15%;
+}
+#two:hover{
+    background-image: radial-gradient(rgb(39, 7, 82),rgb(12, 2, 32));
+
+}
+
+input#three{
+    height: 5vw;
+    width: 5vw;
+    background-color: rgb(54, 5, 134);
+    color: white;
+    position: relative;
+    top: 9vh;
+    left: 3vw;
+    font-size: 32px;
+    border-radius: 15%;
+}
+#three:hover{
+    background-image: radial-gradient(rgb(39, 7, 82),rgb(12, 2, 32));
+
+}
+
+input#plus{
+    height: 5vw;
+    width: 5vw;
+    background-color: rgb(202, 224, 77);
+    color: rgb(37, 26, 26);
+    position: relative;
+    top: 9vh;
+    right: 2vw;
+    font-size: 32px;
+    border-radius: 15%;
+}
+#plus:hover{
+    background-image: radial-gradient(rgb(190, 158, 13),rgb(180, 141, 14));
+}
+
+input#zz{
+    height: 5vw;
+    width: 5vw;
+    background-color: rgb(87, 156, 202);
+    color: white;
+    position: relative;
+    top: 10vh;
+    left: 1vw;
+    font-size: 32px;
+    border-radius: 15%;
+}
+#zz:hover{
+    background-image: radial-gradient(rgb(20, 76, 122),rgb(9, 58, 104));
+
+}
+
+input#zero{
+    height: 5vw;
+    width: 5vw;
+    background-color: rgb(87, 156, 202);
+    color: white;
+    position: relative;
+    top: 10vh;
+    left: 2vw;
+    font-size: 32px;
+    border-radius: 15%;
+}
+#zero:hover{
+    background-image: radial-gradient(rgb(20, 76, 122),rgb(9, 58, 104));
+
+}
+
+input#equ{
+    height: 5vw;
+    width: 5vw;
+    background-color: rgb(17, 155, 109);
+    color: white;
+    position: relative;
+    top: 10vh;
+    left: 3vw;
+    font-size: 32px;
+    border-radius: 15%;
+}
+#equ:hover{
+    background-image: radial-gradient(rgb(22, 90, 70),rgb(2, 65, 56));
+
+}
